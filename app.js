@@ -135,7 +135,7 @@ function sum()
     var num2 = document.getElementById('num2').value
     var result =  Number(num1)+Number(num2)
     console.log(result)
-    document.getElementById('result').innerHTML =result;
+    document.getElementById('result1').innerHTML =result;
 }
 function subt()
 {
@@ -143,7 +143,7 @@ function subt()
     var num2 = document.getElementById('num2').value
     var result =  Number(num1)-Number(num2)
     console.log(result)
-    document.getElementById('result').innerHTML =result;
+    document.getElementById('result1').innerHTML =result;
 }
 function mul()
 {
@@ -151,7 +151,7 @@ function mul()
     var num2 = document.getElementById('num2').value
     var result =  Number(num1)*Number(num2)
     console.log(result)
-    document.getElementById('result').innerHTML =result;
+    document.getElementById('result1').innerHTML =result;
 }
 
 
@@ -224,7 +224,7 @@ function sumT(){
 // TASK 12
 // Write a JavaScript program to check whether a given Number is within 20 of 100 or 400.
 
-function sumT(){
+function rng(){
     num1 =  Number(document.getElementById('tsk12_input1').value);
     if((100-num1)<=20 || (400-num1)<=20)
         result = 'given Number is within 20 of 100 or 400';

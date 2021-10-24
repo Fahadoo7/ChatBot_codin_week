@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coding Week </title>
+</head>
+<style>
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h3{
+        background-color: aqua;
+        text-align: center;
+        box-shadow: 2px 5px grey;
+        width: 50%;
+        margin: auto;
+    }
+    div{
+        border-bottom: 5px black solid;
+        margin-bottom: 10px;
+    }
+    div:hover{
+        background-color: lightgrey;
+    }
+</style>
+<body>
+     <h3>TASK 1</h3> <div><p>Write a JavaScript program to display the current day and time in the following format.
+        Sample Output : Today is : Tuesday.
+        Current time is : 10 PM : 30 : 38</p>                                                                                                                                                                                                                                                                                                                                                                                                  
+    <p id="tsk1">''</p>
+   </div>   
+  <h3>TASK 2</h3>  <div>
+    <p> Write a JavaScript program to get the current date. 
+        Expected Output :
+        mm-dd-yyyy, mm/dd/yyyy or dd-mm-yyyy, dd/mm/yyyy</p>
+    <p id="tsk2">''</p></div>
+     
+    <h3>TASK 3</h3>
+
+    <div>
+        <p>Write a JavaScript program to find the area of a triangle where lengths of the 
+            three of its sides are 5, 6, 7</p>
+           <p id="tsk3">''</p>
+    </div>
+    
+    <h3>TASK 4</h3>
+    <div>
+        <p>Write a JavaScript program to rotate the string 'Saylani' in 
+            right direction by periodically removing one letter from the end of the string and attaching it to the front.
+             </p>
+         <p id="tsk4">''</p>
+    </div>
+   
+    <h3>TASK 5</h3>
+    
+    <div id="tsk5">
+        <p>Write a JavaScript program to determine whether a given year is a leap year in the Gregorian calendar.</p>
+        <input type="date" placeholder="Enter Date" id="tsk5_input">
+        <button onclick="leapY()" >Submit</button>
+        <p id="tsk5_res"> </p>
+    </div>
+    <h3>TASK 6</h3>
+    <div id="tsk6">
+        <p>Write a JavaScript program to find 1st January is being a Sunday between 2014 and 2050</p>
+        <p id="tsk6_res"> </p>
+    </div>
+
+    <h3>TASK 7</h3>
+   <div id="ts7">
+    <p>Write a JavaScript program where the program takes a random Number between 1 to 10, 
+        the user is then prompted to input a guess number. If the user input matches with guess number, 
+        the program will display a message "Good Work" otherwise display a message "Not matched".</p>
+    
+        <p><input id="tsk7_input" type="text" placeholder="Enter Number For Guess"><button onclick="guess()">Submit</button>  </p>
+        <p id="tsk7_text"> </p>
+    </div>
+  
+
+
+
+    <h3>TASK 8</h3>
+    <div id="tsk6">
+        <p>Write a JavaScript program to calculate days left until next 14 August.</p>
+        <p id="tsk8_res"> </p>
+    </div>
+
+    <h3>TASK 9</h3>
+   <div id="tsk9">
+    <p>Write a JavaScript program to calculate multiplication and division of two numbers.</p>
+    
+        <input placeholder="Enter Number" type="text" id="num1">
+        <input placeholder="Enter Number" type="text" id="num2">
+        <button onclick="sum()">Sum</button><button onclick="subt()">Subtract</button><button onclick="mul()"> Multiply</button>
+        <p id="result1"></p>
+    </div>
+
+
+    <h3>TASK 10</h3>
+    <div id="tsk10">
+        <p>Write a JavaScript program to convert temperatures to and from Celsius, Fahrenheit. 
+            [ Formula : c/5 = (f-32)/9 [ where c = temperature in Celsius and f = temperature in Fahrenheit ]
+            </p>
+
+        <input onkeyup="convrt()" onkeydown="bSpace()" placeholder='Enter Temp In Celcius' type="text" id="tsk10_input1">
+        <input onkeyup="convrtf()" onkeydown="bSpace()" placeholder='Enter Temp In Fehr...' type="text" id="tsk10_input2">
+        <p id="result2">0</p>
+
+    </div>
+
+    <h3>TASK 11</h3>
+    <div id="tsk11">
+        <p> Write a JavaScript program to compute the sum of the two given Numbers. 
+            If the two values are same, then returns triple their sum.</p>
+        <input type="text" placeholder="Enter Number1" id="tsk11_input1"><input placeholder="Enter Number2" type="text" id="tsk11_input2"><button onclick ='sumT()' >Submit</button>
+    <p id="tsk11_res"> </p>
+    </div>
+
+    <h3>TASK 12</h3>
+    <div id="tsk12">
+        <p> Write a JavaScript program to check whether a given Number is within 20 of 100 or 400.</p>
+
+        <input type="text" placeholder="Enter Number1" id="tsk12_input1"><button onclick ='sumT()' >Submit</button>
+    <p id="tsk12_res"> </p>
+    </div>
+
+
+    <h3>TASK 13</h3>
+    <div id="tsk13">
+        <p>Write a JavaScript program to find the largest of three given Numbers.</p>
+
+        <input type="text" placeholder="Enter Number 1" id="tsk13_input1">
+        <input type="text" placeholder="Enter Number 2" id="tsk13_input2">
+        <input type="text" placeholder="Enter Number 3" id="tsk13_input3">
+        <button onclick ='comp()' >Submit</button>
+    <p id="tsk13_res"> </p>
+    </div>
+
+
+ <h3>TASK 14</h3>
+ <div id="tsk14">
+    <p> Write a JavaScript program to capitalize the first letter of each word of a given string.</p>
+
+<p id="tsk14_res"> </p>
+</div>
+ <h3>TASK 15</h3>
+    <div id="tsk15">
+        <p>Write a JavaScript program to convert a given days to hours and minutes.</p>
+        <input type="text" placeholder="Enter Number 1" id="tsk15_input1">
+       
+        <button onclick='Days()'>Submit</button>
+    <p id="tsk15_res"> </p>
+    </div>
+
+    <h3>TASK 16</h3>
+ <div id="tsk16">
+   <p>Write a JavaScript program to reverse the elements of a given array, you can not use Array.reverse() do it with loop.</p>
+   <p id="q16"></p>
+
+   <p id="tsk16_res"> </p>
+</div>
+
+
+<h3>TASK 17</h3>
+<div id="tsk17">
+  <p>Write a JavaScript program to find the larger value between the first or last
+    and set all the other elements with that value. Display the new array.</p>
+    <p id="q17"></p>
+<p id="tsk17_res"> </p>
+</div>
+
+<h3>TASK 18</h3>
+<div id="tsk18">
+    <p id="q18"></p>
+  <p> Write a JavaScript program to find the kth greatest element of a given array of Numbers.</p>
+<p id="tsk18_res"> </p>
+</div>
+<h3>TASK 19</h3>
+<div id="tsk19">
+    
+  <p> Write a JavaScript program to find the number which appears most in a given array of Numbers.</p>
+  <p id="q19"></p>
+<p id="tsk19_res"> </p>
+</div>
+<h3>TASK 20</h3>
+<div id="tsk20">
+  <p>Write a JavaScript program to replace all the numbers with a specified number of a given array of Numbers.</p>
+  <p id="q20"></p>
+<p id="tsk20_res"> </p>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
